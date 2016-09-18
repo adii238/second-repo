@@ -1,2 +1,4 @@
 # second-repo
-My first repo on github
+My second repo on github
+New change has been commited
+
