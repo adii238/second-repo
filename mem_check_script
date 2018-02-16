@@ -1,0 +1,7 @@
+#!/bin/bash
+# This works but the output has to be filtered
+
+for i in $(cat /tmp/ss1_infile)
+do
+ssh -o "StrictHostKeyChecking no" user@$i "free -m" >> /tmp/ss1_outfile2   ### -o "StrictHostKeyChecking no" helps in avoiding the prompt
+done
